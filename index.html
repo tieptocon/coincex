@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Title</title>
+    <title>Tiêu đề trang</title>
     <style>
         body {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -11,136 +11,67 @@
             margin: 20px;
         }
 
-        p {
-            color: #d3d3d3;
+        .noidung {
+            padding: 10px;
+            margin: 10px;
         }
 
-        .div1 {
-            background-color: #d3e6fc;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 10px;
+        h1 {
+            font-size: 30px;
+            color: aquamarine;
+            text-align: center;
         }
 
         .sodu {
             font-size: 25px;
+            color: #29294c;
             text-align: center;
-
         }
 
-        a {
+        .nutmua {
+            background-color: aqua;
+            display: inline;
+            padding: 10px;
+            border-radius: 10px;
             text-decoration: none;
-        }
-
-        .nut {
-            max-width: 1000px;
+            font-weight: bold;
             text-align: center;
         }
 
         .cot1 {
-            max-width: 30%;
-            background-color: aqua;
-            display: inline;
-            display: flexbox;
-            background-color: #d3e6fc;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 10px;
+            max-width: 50%;
+            justify-content: center;
         }
 
-        .cot2 {
-            max-width: 30%;
-            background-color: aqua;
-            display: inline;
-            display: flexbox;
-            background-color: #d3e6fc;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 10px;
-        }
-
-        h1 {
+        .giua {
             text-align: center;
-            font-size: 30px;
-            color: aqua;
+            display: flex;
         }
 
-        .lienhe {
-            color: black;
-            font-size: 20px;
-        }
-        .tr1 {
-            font-weight: bold;
-        }
-        table {
-            margin: 20px;
-        }
-        tr {
-        }
-        th {
-            padding: 5px;
-        }
-        td {
-            padding: 5px;
-            height: 10px;
-        }
-        .bitcoin {
-            border-radius: 10px;
+        .row {
+            flex: 1;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Tiêu đề</h1>
-    <p>Thông tin liên hệ:</p>
-    <div class="div1">
-        <p class="lienhe">Liên hệ</p>
-        <ol>
-            <li>Telegram: @nguoidungmoi</li>
-
-            <li>Telegram: @nguoidungmoi</li>
-            <li>Telegram: @nguoidungmoi</li>
-        </ol>
-    </div>
-    <div>
-        <p class="sodu">$</p>
-    </div>
-    <div class="nut">
-        <div class="cot1">
-            <a href="https://backcoms.com/">Backcoms</a>
+    <div class="noidung">
+        <div>
+            <h1>Tiêu đề</h1>
         </div>
-        <div class="cot2">
-            <a href="https://backcoms.com/">Backcoms</a>
+        <div>
+            <p class="sodu">Balance: $100.000</p>
+        </div>
+        <div class="giua">
+            <div class="row">
+                <a href="https://backcoms.com/" class="nutmua">Mua</a>
+            </div>
+            <div class="row">
+                <a href="https://backcoms.com/" class="nutmua">Bán</a>
+            </div>
         </div>
     </div>
-
-    <div class="thanh">
-        <table>
-            <tr class="tr1">
-                <th>Coin</th>
-                <th>Name </th>
-                <th>Giá</th>
-            </tr>
-            <tr>
-                <th class="anhcoin"><img src="https://img.upanh.tv/2025/05/22/B-4.png" width="30" class="bitcoin"></th>
-                <td>Bitcoin</td>
-                <td>$110.000</td>
-            </tr>
-            <tr>
-                <th>2</th>
-                <td>Tiep</td>
-                <td>19</td>
-            </tr>
-        </table>
-    </div>
-   
-
-
-
-
-
-
 
 </body>
 
